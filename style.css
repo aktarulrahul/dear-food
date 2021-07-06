@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 h1 {
   font-size: 50px;
@@ -53,9 +53,10 @@ h3 {
 
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(orange, tomato);
+  font-size: large;
+  background-image: linear-gradient(to right, orange, tomato);
   color: white;
-  height: 100px;
+  height: 140px;
   padding: 10px 30px;
   border-radius: 40px;
 }
@@ -97,13 +98,16 @@ h3 {
   margin: 0 25%;
 }
 
-.recipe-item {
+.item-box {
   width: 28%;
   margin: 1.5%;
+  padding: 1%;
+}
+
+.recipe-item {
   border-radius: 20px;
   box-shadow: 0 0 20px rgb(190, 190, 190);
   text-align: left;
-  padding: 1%;
 }
 
 .recipe-item img {
@@ -121,4 +125,18 @@ h3 {
 
 .footer-section p {
   font-size: small;
+}
+
+.count {
+  text-align: center;
+  margin: 4.5%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(190, 190, 190);
+}
+
+.count h3 {
+  text-align: left;
+  padding-left: 25%;
+  font-size: 30px;
+  font-weight: border;
 }
