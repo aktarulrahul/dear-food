@@ -17,7 +17,7 @@ h2 {
 }
 .flex-container {
   display: flex;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .half-width {
   width: 50%;
@@ -74,4 +74,14 @@ h2 {
   margin-bottom: 100px;
   margin-right: 25%;
   color: #18191f;
+}
+
+.my-recipe {
+  text-align: center;
+}
+
+.my-recipe {
+  padding: 0 20%;
+  font-size: small;
+  color: #252525;
 }
