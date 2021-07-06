@@ -135,14 +135,20 @@ h3 {
   margin: 0;
 }
 
+.testimonial blockquote {
+  height: 100px;
+}
+
 .testimonial img {
-  height: 180px;
+  /* height: 180px;
   width: auto;
-  padding: 5%;
+  padding: 5%; */
+  margin-bottom: 10px;
   border-radius: 20px;
 }
 
 .testimonial h3 {
+  font-size: 20px;
   text-align: center;
   margin-top: 0;
 }
